@@ -183,3 +183,79 @@ footer {
 .development {
   color: red;
 }
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1200px) {
+  .headed {
+    font-size: 2rem;
+    margin-right: 5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 992px) {
+  .container2, .container3, .container4, .container5, .container6 {
+    flex-direction: column;
+  }
+
+  .second_one {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .child_1 {
+    width: 100%;
+  }
+
+  .container4 > div > img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headed {
+    font-size: 1.5rem;
+  }
+
+  .adventure {
+    width: 100%;
+  }
+
+  #telegram_link {
+    font-size: 1.5rem;
+  }
+
+  .container7 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 1.5rem 5rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .headed {
+    font-size: 1.2rem;
+  }
+
+  .container6 > h2 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .container7 {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+  }
+}
