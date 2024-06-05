@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Arbutus&family=Rye&family=Salsa&display=swap");
+
+* {
+  padding: 0;
+  margin: 5px 10px;
+  background-color: burlywood;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p {
+  font-family: "Salsa", cursive;
+  font-size: 1.5rem;
+}
+
+h2, h3, h5 {
+  font-family: "Arbutus", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Rye", serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+.headed {
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  margin-right: 15rem;
+}
+
+.headed > img {
+  border-radius: 60%;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adventure {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+
+#telegram_link {
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: "Salsa", cursive;
+  font-size: 2rem;
+  background-color: coral;
+  border: 1px coral solid;
+  border-radius: 40%;
+}
+
+.image_1 > img {
+  width: 100%;
+  border-radius: 30%;
+}
+
+.container2 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container2 > h2 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.second_one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.child_1 {
+  width: 50%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.container3 > div > p {
+  margin: 0 40%; 
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+  align-items: center;
+}
+
+.container4 > div {
+  width: 50%;
+}
+
+.container4 > div > img {
+  width: 70%;
+}
+
+.container5 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.five_child_two {
+  width: 70%;
+  display: flex;
+}
+
+.five_child_two > div {
+  width: 100%;
+  border: 10px ridge white;
+}
+
+.child_6_one{
+  width: 50%;
+}
