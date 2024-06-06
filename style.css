@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-p {
+p, ul {
   font-family: "Salsa", cursive;
   font-size: 1.5rem;
 }
@@ -104,6 +104,9 @@ nav {
   font-size: 1.7rem;
   flex-direction: column;
 }
+.container3 > h2 {
+  margin-bottom: 5rem;
+}
 
 .container3 div {
   display: grid;
@@ -113,17 +116,48 @@ nav {
 
 .container4 {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.roadmap > h2 {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  margin-left: 45%;
+}
+
+.roadmap_details {
+  display: flex;
   justify-content: space-between;
-  margin-top: 10rem;
+  gap: 5rem;
+}
+
+.chart {
+  text-decoration: underline;
+  color: blue;
+}
+
+.roadmap > p {
+  margin-top: 3rem;
+}
+
+.bitecko {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.container4 > div {
+.bitecko > img {
+  margin-top: 5rem;
   width: 50%;
-}
-
-.container4 > div > img {
-  width: 70%;
 }
 
 .container5 {
@@ -184,9 +218,33 @@ footer {
   color: red;
 }
 
+
+@media (max-width: 768px) {
+  
+  nav {
+    flex-direction: column;
+  }
+  .container1 {
+    flex-direction: column;
+  }
+  .container2 {
+    align-items: flex-start;
+  }
+  .second_one {
+    flex-direction: column;
+  }
+  .roadmap_details {
+    flex-direction: column;
+  }
+  .container5 {
+    flex-direction: column;
+  }
+}
+
+
 /* Media Queries for Responsiveness */
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .headed {
     font-size: 2rem;
     margin-right: 5rem;
@@ -258,4 +316,4 @@ footer {
     padding: 1rem 3rem;
     font-size: 1rem;
   }
-}
+} */
